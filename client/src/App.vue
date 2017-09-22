@@ -1,14 +1,21 @@
 <template>
   <div id="app">
     <v-app>
-      <router-view></router-view>
+      <toolbar/>
+      <main>
+        <router-view></router-view>
+      </main>
     </v-app>
   </div>
 </template>
 
 <script>
+import Toolbar from './components/Home/Toolbar'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Toolbar
+  }
 }
 </script>
 

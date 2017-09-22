@@ -1,5 +1,5 @@
 <template>
-    <toolbar/>
+  <h1>home</h1>
 </template>
 <script>
 import Toolbar from './Toolbar'
